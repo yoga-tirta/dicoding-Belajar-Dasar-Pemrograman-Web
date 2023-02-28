@@ -14,10 +14,7 @@ body {
   /* height: 5000px; */
 }
 
-h2 {
-  color: #ff9900;
-}
-
+/* Header */
 header {
   display: inline;
   text-align: center;
@@ -56,16 +53,10 @@ nav li {
   margin-right: 20px;
 }
 
+/* Main */
 main {
   padding: 20px;
   overflow: auto;
-}
-
-.featured-image {
-  width: 100%;
-  max-height: 500px;
-  object-fit: cover;
-  object-position: center;
 }
 
 #content {
@@ -73,6 +64,26 @@ main {
   width: 75%;
 }
 
+h2 {
+  color: #ff9900;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.content-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Aside */
 aside {
   float: right;
   width: 25%;
@@ -91,18 +102,11 @@ aside section img:hover {
   border-radius: 50%;
 }
 
-.card {
-  margin-top: 20px;
-  padding: 30px;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
 .card header {
   text-align: center;
 }
 
+/* Contact */
 input[type="text"],
 select,
 textarea {
@@ -132,6 +136,7 @@ input[type="submit"]:hover {
   background-color: #181d31;
 }
 
+/* Footer */
 footer {
   padding: 10px;
   color: white;
@@ -155,6 +160,7 @@ footer p a:hover {
   color: #ff9900;
 }
 
+/* Responsive */
 @media screen and (max-width: 1000px) {
   header img {
     width: 400px;
